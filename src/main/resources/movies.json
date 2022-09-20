@@ -2,12 +2,12 @@
   {
     "title": "The Green Mile",
     "genre": "Drama",
-    "director": [
+    "director":
       {
         "firstName": "Frank",
         "lastName": "Darabont"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Tom",
@@ -27,12 +27,12 @@
   {
     "title": "Forrest Gump",
     "genre": "Comedy",
-    "director": [
+    "director":
       {
         "firstName": "Robert",
         "lastName": "Zemeckis"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Tom",
@@ -48,12 +48,12 @@
   {
     "title": "Matrix",
     "genre": "Sci-Fi",
-    "director": [
+    "director":
       {
         "firstName": "Lilly",
         "lastName": "Wachowski"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Keanu",
@@ -73,12 +73,12 @@
   {
     "title": "Saving Private Ryan",
     "genre": "War",
-    "director": [
+    "director":
       {
         "firstName": "Steven",
         "lastName": "Spielberg"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Tom",
@@ -94,12 +94,12 @@
   {
     "title": "Three Billboards Outside Ebbing, Missouri",
     "genre": "Drama",
-    "director": [
+    "director":
       {
         "firstName": "Martin",
         "lastName": "McDonagh"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Frances",
@@ -119,12 +119,12 @@
   {
     "title": "Moon",
     "genre": "Sci-Fi",
-    "director": [
+    "director":
       {
         "firstName": "Duncan",
         "lastName": "Jones"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Sam",
@@ -140,12 +140,12 @@
   {
     "title": "Good Will Hunting",
     "genre": "Drama",
-    "director": [
+    "director":
       {
         "firstName": "Gus",
         "lastName": "Van Sant"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Matt",
@@ -165,12 +165,12 @@
   {
     "title": "Interstellar",
     "genre": "Sci-Fi",
-    "director": [
+    "director":
       {
         "firstName": "Christopher",
         "lastName": "Nolan"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Matthew",
@@ -190,12 +190,12 @@
   {
     "title": "Gone Girl",
     "genre": "Thriller",
-    "director": [
+    "director":
       {
         "firstName": "David",
         "lastName": "Fincher"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Ben",
@@ -211,12 +211,12 @@
   {
     "title": "Daredevil",
     "genre": "Action",
-    "director": [
+    "director":
       {
         "firstName": "Mark",
         "lastName": "Johnson"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Ben",
@@ -232,12 +232,12 @@
   {
     "title": "The Gentlemen",
     "genre": "Crime",
-    "director": [
+    "director":
       {
         "firstName": "Guy",
         "lastName": "Ritchie"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Matthew",
@@ -253,12 +253,12 @@
   {
     "title": "The Highwaymen",
     "genre": "Drama",
-    "director": [
+    "director":
       {
         "firstName": "John",
         "lastName": "Hancock"
       }
-    ],
+    ,
     "actors": [
       {
         "firstName": "Kevin",
