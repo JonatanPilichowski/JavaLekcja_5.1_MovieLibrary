@@ -3,18 +3,18 @@ package models;
 import lombok.Getter;
 
 @Getter
-public class Actor extends Person{
+public class Actor extends Person {
 
-    public Actor(){
+    public Actor() {
         super();
-    };
+    }
 
     public Actor(String firstName, String lastName) {
         super(firstName, lastName);
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return getFirstName() + " " + getLastName();
     }
 }

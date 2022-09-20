@@ -21,12 +21,19 @@ public class Movie {
     @JsonProperty("actors")
     private List<Actor> actors;
 
-    public Movie(){}
+    public Movie() {
+    }
 
 
     @Override
     public String toString() {
-        return "Movie: "+ title + "\n Director: " + director+ "\n Genre: " + genre + "\n Actors: "+ Arrays.toString(actors.toArray()).replace("[", "").replace("]", "") + "\n Date of release: " + releaseDate + "\n";
+        return "Movie: "
+                + title + "\n Director: "
+                + director + "\n Genre: "
+                + genre + "\n Actors: "
+                + Arrays.toString(actors.toArray()).replace("[", "").replace("]", "")
+                + "\n Date of release: "
+                + releaseDate + "\n";
     }
 
 }

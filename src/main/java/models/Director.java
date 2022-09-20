@@ -3,17 +3,18 @@ package models;
 import lombok.Getter;
 
 @Getter
-public class Director extends Person{
-    public Director(){
+public class Director extends Person {
+    public Director() {
         super();
     }
 
     public Director(String firstName, String lastName) {
         super(firstName, lastName);
     }
+
     @Override
-   public String toString(){
-       return getFirstName() + " " + getLastName();
+    public String toString() {
+        return getFirstName() + " " + getLastName();
     }
 
 }

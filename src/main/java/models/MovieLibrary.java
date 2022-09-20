@@ -2,53 +2,22 @@ package models;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.nio.file.Paths;
 import java.util.*;
 
 import static helpers.UserInputHelper.userInputNumber;
-import static helpers.UserInputHelper.validatedValue;
+import static helpers.UserInputHelper.validateNumber;
+
 @Getter
+@Setter
 
 public class MovieLibrary {
     private List<Movie> movies;
-    public MovieLibrary(){
+
+    public MovieLibrary() {
         movies = new ArrayList<>();
-    }
-    public static void main(String[] args) {
-
-
-        List<Movie> movieLibrary = null;
-        movieLibrary = getMoviesFromJson("src/main/resources/movies.json");
-
-
-        switch(userInputNumber()){
-            default -> System.out.println("Wrong value. Select options from 0 to 4.");
-            case 1 -> displayWholeMovieLibrary(movieLibrary);
-            case 2 -> getMoviesForInputActor(movieLibrary);
-            case 3 -> getMoviesForReleaseDateRange(movieLibrary);
-            case 4 -> System.exit(0);
-        }
-
-
-
-    }
-
-    public static void getMoviesForReleaseDateRange(List<Movie> movieLibrary) {
-        System.out.println("Provide first year number in format YYYY:");
-        int firstYear = userInputNumber();
-        System.out.println("Provide second year number in format YYYY:");
-        int secondYear = userInputNumber();
-        for (Movie mov : movieLibrary) {
-            if (validatedValue(mov.getReleaseDate()) >= firstYear && validatedValue(mov.getReleaseDate()) <= secondYear) {
-                System.out.println(mov);
-            }
-        }
-    }
-
-    public static void displayWholeMovieLibrary(List<Movie> movieLibrary) {
-        for (Movie mov : movieLibrary) {
-            System.out.println(mov.toString());}
     }
 
     public static List<Movie> getMoviesFromJson(String path) {
@@ -63,6 +32,25 @@ public class MovieLibrary {
         return movieLibrary;
     }
 
+    public static void getMoviesForReleaseDateRange(List<Movie> movieLibrary) {
+        System.out.println("Provide first year number in format YYYY:");
+        int firstYear = userInputNumber();
+        System.out.println("Provide second year number in format YYYY:");
+        int secondYear = userInputNumber();
+        for (Movie mov : movieLibrary) {
+            if (validateNumber(mov.getReleaseDate()) >= firstYear && validateNumber(mov.getReleaseDate()) <= secondYear) {
+                System.out.println(mov.getTitle());
+            }
+        }
+    }
+
+    public static void displayRandomMovie(List<Movie> movieLibrary) {
+
+        Random random = new Random();
+        int randomNumber = random.nextInt(movieLibrary.size());
+        System.out.println(movieLibrary.get(randomNumber));
+    }
+
     public static void getMoviesForInputActor(List<Movie> movies) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Provide first name of the actor");
@@ -71,11 +59,15 @@ public class MovieLibrary {
         String actorLastName = scanner.nextLine();
         for (Movie mov : movies) {
             for (Actor act : mov.getActors()) {
-                if (!(Objects.equals(actorFirstName, act.getFirstName()))) break;
-                if (!(Objects.equals(actorLastName, act.getLastName()))) break;
-                System.out.println(mov);
+                if (isEquals(actorFirstName, act.getFirstName()) && isEquals(actorLastName, act.getLastName())) {
+                    System.out.println(mov.getTitle());
+                }
             }
         }
+    }
+
+    private static boolean isEquals(String actorFirstName, String expectedName) {
+        return Objects.equals(actorFirstName.toUpperCase(), expectedName.toUpperCase());
     }
 
 

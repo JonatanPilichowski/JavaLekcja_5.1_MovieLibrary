@@ -15,11 +15,10 @@ public class UserInputHelper {
         }
     }
 
-    public static int validatedValue (String valueToValidate){
-        try{
+    public static int validateNumber(String valueToValidate) {
+        try {
             Integer.parseInt(valueToValidate);
-        }
-        catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             e.printStackTrace();
         }
         return Integer.parseInt(valueToValidate);
