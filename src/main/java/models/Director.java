@@ -16,5 +16,4 @@ public class Director extends Person {
     public String toString() {
         return getFirstName() + " " + getLastName();
     }
-
 }

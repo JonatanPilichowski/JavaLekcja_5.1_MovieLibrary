@@ -1,5 +1,6 @@
 package helpers;
 
+import java.util.HashMap;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -24,4 +25,21 @@ public class UserInputHelper {
         return Integer.parseInt(valueToValidate);
     }
 
+    public static HashMap<String, Integer> getUserYearInput() {
+        HashMap<String, Integer> hashMap = new HashMap<>();
+        System.out.println("Provide first year number in format YYYY:");
+        hashMap.put("firstYear", userInputNumber());
+        System.out.println("Provide second year number in format YYYY:");
+        hashMap.put("secondYear", userInputNumber());
+        return hashMap;
+    }
+    public static HashMap<String, String> getUserActorInput() {
+        Scanner scanner = new Scanner(System.in);
+        HashMap<String, String> hashMap = new HashMap<>();
+        System.out.println("Provide first name of the actor");
+        hashMap.put("actorFirstName", scanner.nextLine());
+        System.out.println("Provide last name of the actor");
+        hashMap.put("actorLastName", scanner.nextLine());
+        return hashMap;
+    }
 }

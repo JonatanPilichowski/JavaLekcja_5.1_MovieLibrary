@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ec2400a-b9b3-450b-bb2b-8c4ca75521d9" name="Changes" comment="First version, before refactor">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="5ec2400a-b9b3-450b-bb2b-8c4ca75521d9" name="Changes" comment="refactored version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/JsonInputHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/JsonInputHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Menu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helpers/UserInputHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/UserInputHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Actor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Director.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/MovieLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/MovieLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runner/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movies.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +68,9 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="runner.Runner" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runner.Main" />
       <module name="JavaLekcja_5.1_MovieLibrary" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.models.MovieLibrary" />
       </list>
     </recent_temporary>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663688605388</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactored version">
+      <created>1663710495763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663710495763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +151,7 @@
     <MESSAGE value="Imitial commit" />
     <MESSAGE value="Added model classes and used object mapper from jackson framework" />
     <MESSAGE value="First version, before refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="First version, before refactor" />
+    <MESSAGE value="refactored version" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored version" />
   </component>
 </project>

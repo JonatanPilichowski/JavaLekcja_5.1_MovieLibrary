@@ -24,16 +24,14 @@ public class Movie {
     public Movie() {
     }
 
-
     @Override
     public String toString() {
-        return "Movie: "
-                + title + "\n Director: "
-                + director + "\n Genre: "
-                + genre + "\n Actors: "
+        return "Movie title: "
+                + title + "\nDirector: "
+                + director + "\nGenre: "
+                + genre + "\nActors: "
                 + Arrays.toString(actors.toArray()).replace("[", "").replace("]", "")
-                + "\n Date of release: "
-                + releaseDate + "\n";
+                + "\nDate of release: "
+                + releaseDate;
     }
-
 }

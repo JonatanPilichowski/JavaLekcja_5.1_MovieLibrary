@@ -1,274 +1,252 @@
-[
-  {
-    "title": "The Green Mile",
-    "genre": "Drama",
-    "director":
-      {
+{
+  "movies": [
+    {
+      "title": "The Green Mile",
+      "genre": "Drama",
+      "director": {
         "firstName": "Frank",
         "lastName": "Darabont"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Tom",
-        "lastName": "Hanks"
       },
-      {
-        "firstName": "Michael",
-        "lastName": "Duncan"
-      },
-      {
-        "firstName": "Sam",
-        "lastName": "Rockwell"
-      }
-    ],
-    "releaseDate": "1999"
-  },
-  {
-    "title": "Forrest Gump",
-    "genre": "Comedy",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Tom",
+          "lastName": "Hanks"
+        },
+        {
+          "firstName": "Michael",
+          "lastName": "Duncan"
+        },
+        {
+          "firstName": "Sam",
+          "lastName": "Rockwell"
+        }
+      ],
+      "releaseDate": "1999"
+    },
+    {
+      "title": "Forrest Gump",
+      "genre": "Comedy",
+      "director": {
         "firstName": "Robert",
         "lastName": "Zemeckis"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Tom",
-        "lastName": "Hanks"
       },
-      {
-        "firstName": "Gary",
-        "lastName": "Sinise"
-      }
-    ],
-    "releaseDate": "1994"
-  },
-  {
-    "title": "Matrix",
-    "genre": "Sci-Fi",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Tom",
+          "lastName": "Hanks"
+        },
+        {
+          "firstName": "Gary",
+          "lastName": "Sinise"
+        }
+      ],
+      "releaseDate": "1994"
+    },
+    {
+      "title": "Matrix",
+      "genre": "Sci-Fi",
+      "director": {
         "firstName": "Lilly",
         "lastName": "Wachowski"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Keanu",
-        "lastName": "Reeves"
       },
-      {
-        "firstName": "Hugo",
-        "lastName": "Weaving"
-      },
-      {
-        "firstName": "Laurence",
-        "lastName": "Fishburne"
-      }
-    ],
-    "releaseDate": "1999"
-  },
-  {
-    "title": "Saving Private Ryan",
-    "genre": "War",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Keanu",
+          "lastName": "Reeves"
+        },
+        {
+          "firstName": "Hugo",
+          "lastName": "Weaving"
+        },
+        {
+          "firstName": "Laurence",
+          "lastName": "Fishburne"
+        }
+      ],
+      "releaseDate": "1999"
+    },
+    {
+      "title": "Saving Private Ryan",
+      "genre": "War",
+      "director": {
         "firstName": "Steven",
         "lastName": "Spielberg"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Tom",
-        "lastName": "Hanks"
       },
-      {
-        "firstName": "Matt",
-        "lastName": "Damon"
-      }
-    ],
-    "releaseDate": "1998"
-  },
-  {
-    "title": "Three Billboards Outside Ebbing, Missouri",
-    "genre": "Drama",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Tom",
+          "lastName": "Hanks"
+        },
+        {
+          "firstName": "Matt",
+          "lastName": "Damon"
+        }
+      ],
+      "releaseDate": "1998"
+    },
+    {
+      "title": "Three Billboards Outside Ebbing, Missouri",
+      "genre": "Drama",
+      "director": {
         "firstName": "Martin",
         "lastName": "McDonagh"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Frances",
-        "lastName": "McDormand"
       },
-      {
-        "firstName": "Woody",
-        "lastName": "Harrelson"
-      },
-      {
-        "firstName": "Sam",
-        "lastName": "Rockwell"
-      }
-    ],
-    "releaseDate": "2017"
-  },
-  {
-    "title": "Moon",
-    "genre": "Sci-Fi",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Frances",
+          "lastName": "McDormand"
+        },
+        {
+          "firstName": "Woody",
+          "lastName": "Harrelson"
+        },
+        {
+          "firstName": "Sam",
+          "lastName": "Rockwell"
+        }
+      ],
+      "releaseDate": "2017"
+    },
+    {
+      "title": "Moon",
+      "genre": "Sci-Fi",
+      "director": {
         "firstName": "Duncan",
         "lastName": "Jones"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Sam",
-        "lastName": "Rockwell"
       },
-      {
-        "firstName": "Kevin",
-        "lastName": "Spacey"
-      }
-    ],
-    "releaseDate": "2009"
-  },
-  {
-    "title": "Good Will Hunting",
-    "genre": "Drama",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Sam",
+          "lastName": "Rockwell"
+        },
+        {
+          "firstName": "Kevin",
+          "lastName": "Spacey"
+        }
+      ],
+      "releaseDate": "2009"
+    },
+    {
+      "title": "Good Will Hunting",
+      "genre": "Drama",
+      "director": {
         "firstName": "Gus",
         "lastName": "Van Sant"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Matt",
-        "lastName": "Damon"
       },
-      {
-        "firstName": "Robin",
-        "lastName": "Williams"
-      },
-      {
-        "firstName": "Ben",
-        "lastName": "Affleck"
-      }
-    ],
-    "releaseDate": "1997"
-  },
-  {
-    "title": "Interstellar",
-    "genre": "Sci-Fi",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Matt",
+          "lastName": "Damon"
+        },
+        {
+          "firstName": "Robin",
+          "lastName": "Williams"
+        },
+        {
+          "firstName": "Ben",
+          "lastName": "Affleck"
+        }
+      ],
+      "releaseDate": "1997"
+    },
+    {
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "director": {
         "firstName": "Christopher",
         "lastName": "Nolan"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Matthew",
-        "lastName": "McConaughey"
       },
-      {
-        "firstName": "Anne",
-        "lastName": "Hathaway"
-      },
-      {
-        "firstName": "Matt",
-        "lastName": "Damon"
-      }
-    ],
-    "releaseDate": "2014"
-  },
-  {
-    "title": "Gone Girl",
-    "genre": "Thriller",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Matthew",
+          "lastName": "McConaughey"
+        },
+        {
+          "firstName": "Anne",
+          "lastName": "Hathaway"
+        },
+        {
+          "firstName": "Matt",
+          "lastName": "Damon"
+        }
+      ],
+      "releaseDate": "2014"
+    },
+    {
+      "title": "Gone Girl",
+      "genre": "Thriller",
+      "director": {
         "firstName": "David",
         "lastName": "Fincher"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Ben",
-        "lastName": "Affleck"
       },
-      {
-        "firstName": "Rosamund",
-        "lastName": "Pike"
-      }
-    ],
-    "releaseDate": "2014"
-  },
-  {
-    "title": "Daredevil",
-    "genre": "Action",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Ben",
+          "lastName": "Affleck"
+        },
+        {
+          "firstName": "Rosamund",
+          "lastName": "Pike"
+        }
+      ],
+      "releaseDate": "2014"
+    },
+    {
+      "title": "Daredevil",
+      "genre": "Action",
+      "director": {
         "firstName": "Mark",
         "lastName": "Johnson"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Ben",
-        "lastName": "Affleck"
       },
-      {
-        "firstName": "Colin",
-        "lastName": "Farrell"
-      }
-    ],
-    "releaseDate": "2003"
-  },
-  {
-    "title": "The Gentlemen",
-    "genre": "Crime",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Ben",
+          "lastName": "Affleck"
+        },
+        {
+          "firstName": "Colin",
+          "lastName": "Farrell"
+        }
+      ],
+      "releaseDate": "2003"
+    },
+    {
+      "title": "The Gentlemen",
+      "genre": "Crime",
+      "director": {
         "firstName": "Guy",
         "lastName": "Ritchie"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Matthew",
-        "lastName": "McConaughey"
       },
-      {
-        "firstName": "Colin",
-        "lastName": "Farrell"
-      }
-    ],
-    "releaseDate": "2019"
-  },
-  {
-    "title": "The Highwaymen",
-    "genre": "Drama",
-    "director":
-      {
+      "actors": [
+        {
+          "firstName": "Matthew",
+          "lastName": "McConaughey"
+        },
+        {
+          "firstName": "Colin",
+          "lastName": "Farrell"
+        }
+      ],
+      "releaseDate": "2019"
+    },
+    {
+      "title": "The Highwaymen",
+      "genre": "Drama",
+      "director": {
         "firstName": "John",
         "lastName": "Hancock"
-      }
-    ,
-    "actors": [
-      {
-        "firstName": "Kevin",
-        "lastName": "Costner"
       },
-      {
-        "firstName": "Woody",
-        "lastName": "Harrelson"
-      }
-    ],
-    "releaseDate": "2019"
-  }
-]
+      "actors": [
+        {
+          "firstName": "Kevin",
+          "lastName": "Costner"
+        },
+        {
+          "firstName": "Woody",
+          "lastName": "Harrelson"
+        }
+      ],
+      "releaseDate": "2019"
+    }
+  ]
+}

@@ -1,23 +1,21 @@
 package helpers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import models.Movie;
+import models.MovieLibrary;
 
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.List;
+import java.io.File;
 
 public class JsonInputHelper {
 
-    public static List<Movie> getMoviesFromJson(String path) {
-        List<Movie> movieLibrary = null;
-        ObjectMapper objectMapper = new ObjectMapper();
+    public static MovieLibrary getMoviesFromJsonFile(String path) {
+        ObjectMapper mapper = new ObjectMapper();
+        MovieLibrary movies = null;
         try {
-            movieLibrary = Arrays.asList(objectMapper.readValue(Paths.get(path).toFile(), Movie[].class));
+            movies = mapper.readValue(new File(path), MovieLibrary.class);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return movieLibrary;
+        return movies;
     }
 }
